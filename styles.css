@@ -1,0 +1,75 @@
+.container {
+    font-family: Poppins;
+    color: white;
+    background-color: #5e548e;
+    margin: auto;
+    max-width: 900px;
+}
+
+body {
+    background-image: url('https://nekoweb.org/static/assets/nekopattern.png');
+}
+
+hr {
+    color: white;
+}
+
+.flexbox {
+    max-width: 800px;
+    margin: auto;
+}
+
+.projects ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 0rem;
+}
+
+/* the spacing on these isn't quite what i want */
+.projects img {
+    display: block;
+    width: 140px;
+    height: auto;
+}
+
+.projects figcaption {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background-color: #5e548e;
+    border-radius: 50px;
+    min-height: 200px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+}
+
+.projects li {
+    display: inline;
+    padding: 20px;
+}
+
+.color-change {
+    color: #ffbb00;
+}

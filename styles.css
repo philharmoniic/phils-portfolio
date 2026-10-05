@@ -1,52 +1,12 @@
-.container {
-    font-family: Poppins;
-    color: white;
-    background-color: #5e548e;
-    margin: auto;
-    max-width: 900px;
-}
-
 body {
-    background-image: url('https://nekoweb.org/static/assets/nekopattern.png');
+    background-image: url('static/images/picnic.webp');
+    background-repeat: repeat;
+    background-size: 1000px 1000px;
+    font-family: "Roboto Mono", monospace;
 }
 
 hr {
     color: white;
-}
-
-.flexbox {
-    max-width: 800px;
-    margin: auto;
-}
-
-.projects ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    gap: 0rem;
-}
-
-/* the spacing on these isn't quite what i want */
-.projects img {
-    display: block;
-    width: 140px;
-    height: auto;
-    border-radius: 10px;
-    border: 2px solid white;
-    box-shadow: 0px 4px 10px rgb(23, 0, 40);
-}
-
-.projects figcaption {
-    text-align: center;
-}
-
-header h1 {
-    text-align: center;
-    color: white;
-    font-size: 80px;
-    min-height: 200px;
-    max-width: 1500px;
-    margin: auto;
 }
 
 h2 {
@@ -61,27 +21,34 @@ p {
     font-size: 18px;
 }
 
-.projects {
-    display: flex;
-    align-items: center;
-}
-
-.projects li {
-    display: inline;
-    padding: 20px;
-}
-
-.color-change {
-    color: #ffbb00;
-}
-
 a {
-    color: rgb(194, 250, 250);
+    color: rgb(255, 216, 152);
 }
 
-footer p {
+.container {
+    color: white;
+    background-color: #eb6599;
+    margin: auto;
+    max-width: 56rem;
+    border-radius: 2rem;
+}
+
+.flexbox {
+    max-width: 800px;
+    margin: auto;
+}
+
+header {
     text-align: center;
-    padding: 25px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    min-height: 200px;
+    max-width: 1500px;
+    margin: auto;
 }
 
 header ul {
@@ -92,15 +59,64 @@ header ul {
 
 header li {
     display: inline;
-    font-size: 30px;
-    margin-right: 30px;
-}
-
-header {
-    text-align: center;
+    font-size: 1.25rem;
+    margin-right: 1.5rem;
 }
 
 header a {
     text-decoration: none;
     font-weight: 500;
+}
+
+.profile-pic {
+    float: right;
+    width: 30rem;
+    height: auto;
+    margin: 0 0 1rem 1rem;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 4px 10px rgb(23, 0, 40);
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    list-style: none;
+}
+
+.projects li {
+    padding: 20px;
+}
+
+.projects img {
+    display: block;
+    width: 140px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 4px 10px rgb(23, 0, 40);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.projects img:hover {
+    transform: scale(1.06);
+    box-shadow: 0px 8px 20px rgb(23, 0, 40);
+}
+
+.projects figcaption {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+footer p {
+    text-align: center;
+    padding: 25px;
+}
+
+.color-change {
+    color: rgb(255, 216, 152);
 }

@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phil's Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="/static/images/icon.ico" />
 </head>
@@ -13,76 +18,74 @@
         <div class="flexbox">
             <header>
                 <h1>welcome to the <span class="color-change">phil-folio!</span></h1>
-                <span id="heading-caption"><p>hi, i'm phil! i'm a software engineer in training! i do cool stuff sometimes!</p>
+                <span id="heading-caption"><p>i do cool stuff sometimes! ദ്ദി´ ˘ `)✧</p>
                 <ul>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#about">Current Projects</a></li>
-                    <li><a href="#about">Past Projects</a></li>
+                    <li><a href="#projects-new">Current Projects</a></li>
+                    <li><a href="#projects-old">Past Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
                 </ul>
             </header>
             
             <hr>
             
-            <section id="about">
-                <h2>who i am</h2>
-                <p>my name is phillip abraham! i'm an undergraduate student at georgia tech, currently studying computer science!
-                i'm working towards becoming a full-stack developer!
-                </p>
+            <main></main>
+                <section id="about">
+                    <h2>who i am</h2>
+                    <img class="profile-pic" src="static/images/phil.webp" alt="Phil Abraham" />
+                    <p><b>hi, i'm phil!</b> i'm a third-year undergraduate student at <b>georgia tech</b>, currently studying computer science! 
+                        i have concentrations in info and media!
+                    </p>
 
-                <h3>skills</h3>
-                <ul>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-            </section>
+                    <p>some hobbies i have include making digital art, baking, reading books, learning kpop dances, and roller skating!
+                    </p>
+                </section>
 
-            <hr>
+                <section id="projects-new">
+                    <h2>what stuff am i doing?</h2>
 
-            <section id="current">
-                <h2>what am i working on?</h2>
-            </section>
 
-            <hr>
+                </section>
 
-            <section id="projects">
-                <h2>what stuff have i done?</h2>
-                <div class="projects">
-                    <ul>
-                        <li>
-                            <figure>
-                                <a href="https://github.com/philharmoniic/1-Fish-2-Phish/tree/main" target="_blank">
-                                <img src="/static/images/fish.webp" alt="1 Fish, 2 Phish" />
-                                </a>
-                            </figure>
-                            <figcaption>1 Fish, 2 Phish</figcaption>
-                        </li>
+                <section id="projects-old">
+                    <h2>what stuff have i done?</h2>
+                        <ul class="projects">
+                            <li>
+                                <figure>
+                                    <a href="https://github.com/philharmoniic/1-Fish-2-Phish/tree/main" target="_blank">
+                                    <img src="static\images\1fish.webp" alt="1 Fish, 2 Phish" />
+                                    </a>
+                                    <figcaption>1 Fish, 2 Phish</figcaption>
+                                </figure>
+                            </li>
 
-                        <li>
-                            <figure>
-                                <a href="https://github.com/philharmoniic/Ghostwritten" target="_blank">
-                                <img src="/static/images/ghost.webp" alt="Ghostwritten" />
-                                </a>
-                            </figure>
-                            <figcaption>Ghostwritten</figcaption>
-                        </li>
-                        
-                        <li>
-                            <figure>
-                                <img src="" alt="Placeholder" />
-                            </figure>
-                            <figcaption>Placeholder</figcaption>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+                            <li>
+                                <figure>
+                                    <a href="https://github.com/philharmoniic/Ghostwritten" target="_blank">
+                                    <img src="static\images\ghost.webp" alt="Ghostwritten" />
+                                    </a>
+                                    <figcaption>Ghostwritten</figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                </section>
 
+                <section id="resume">
+                    <h2>resume</h2>
+                    <iframe
+                        src="static\files\Phil_Abraham_Resume_9_26.pdf"
+                        title="Phil's Resume"
+                        width="100%"
+                        height="800"
+                        loading="lazy">
+                    </iframe>
+                </section>
+
+            </main>
             <hr>
 
             <footer>
-                <p>Designed by Phillip Abraham | Email: <a href="mailto:phillipjamesabraham@gmail.com" target="_blank">phillipjamesabraham@gmail.com</a></p>
+                <p>Designed by Phil Abraham | Email: <a href="mailto:phillipjamesabraham@gmail.com" target="_blank">phillipjamesabraham@gmail.com</a></p>
             </footer>
         </div>
     </div>
